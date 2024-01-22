@@ -1,0 +1,53 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+
+	.logo {
+		img {
+			width: 184.984px;
+			height: 186.865px;
+			flex-shrink: 0;
+		}
+	}
+	p {
+		color: #fff;
+		font-family: Montserrat;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	.disply {
+		margin-top: 300px;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		gap: 90px;
+    .text1{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+		.purpleSurkle {
+			display: flex;
+		}
+		.logoImg {
+			display: flex;
+			flex-direction: column;
+      gap: 40px;
+		}
+	}
+}
+.retoof {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+
+}

@@ -1,0 +1,155 @@
+.container {
+	margin: auto;
+	width: 1272px;
+	.texnologi {
+		.card {
+			h1 {
+				margin: auto;
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				position: absolute;
+				z-index: 10;
+				margin-top: -200px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				left: 470px;
+				span {
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 36px;
+					font-style: normal;
+					font-weight: 300;
+					line-height: normal;
+				}
+			}
+
+			.circle {
+				position: absolute;
+				z-index: 10;
+				margin-left: 535px;
+				margin-top: -50px;
+			}
+
+			.circle1 {
+				position: absolute;
+				z-index: 10;
+				margin-left: 550px;
+				margin-top: -35px;
+			}
+
+			.circle2 {
+				position: absolute;
+				z-index: 11;
+				margin-left: 555px;
+				margin-top: -30px;
+			}
+		}
+	}
+
+	.unreal {
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 80px;
+	}
+
+	.build {
+		// margin-left: 500px;
+		// padding: 20px;
+		margin: auto;
+		width: 1200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 100px;
+
+		h1 {
+			width: 380px;
+			// margin-left: -100px;
+			color: #fff;
+			font-family: Montserrat;
+			font-size: 36px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+			span {
+				color: #fff;
+				font-family: Montserrat;
+				font-size: 36px;
+				font-style: normal;
+				font-weight: 300;
+				line-height: normal;
+			}
+		}
+	}
+
+	.numbers {
+		margin-top: 130px;
+		margin-bottom: 180px;
+		img {
+			width: 1400px;
+			display: flex;
+		}
+		.krugi {
+			position: absolute;
+			z-index: 20;
+			.krug1Black {
+				margin-top: -200px;
+				display: flex;
+				justify-content: center;
+				gap: 150px;
+			}
+
+			.purpleKrug {
+				margin-top: -180px;
+				display: flex;
+				justify-content: center;
+				gap: 190px;
+			}
+			.numberPurple {
+				margin-top: -120px;
+				display: flex;
+				justify-content: center;
+				gap: 270px;
+				h1 {
+					color: #343045;
+					font-family: Montserrat;
+					font-size: 64px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+			}
+			.textNumber {
+				display: flex;
+				justify-content: center;
+				gap: 60px;
+				width: 1200px;
+				margin-top: 100px;
+				.texting1 {
+					display: flex;
+				}
+				h1 {
+					padding: 14px;
+					color: #fff;
+					font-family: Montserrat;
+					font-size: 24px;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+				img {
+					width: 80px;
+					height: 80px;
+				}
+			}
+		}
+	}
+}
